@@ -14,20 +14,35 @@ public class MaximumNumberTest {
         maximumValue = new MaximumNumber();
     }
     @Test
-    public void givenMaxNumber_whenInFirstPosition_shouldReturnSame() {
-        Integer maximum = maximumValue.maximumValue(3,2,1);
+    public void givenMaxIntNumber_whenInFirstPosition_shouldReturnSame() {
+        Integer maximum = maximumValue.maximumIntegerValue(3,2,1);
         Assert.assertEquals((Integer)3,maximum);
     }
 
     @Test
-    public void givenMaxNumber_whenInSecondPosition_shouldReturnSame() {
-        Integer maximum = maximumValue.maximumValue(2,3,1);
+    public void givenMaxIntNumber_whenInSecondPosition_shouldReturnSame() {
+        Integer maximum = maximumValue.maximumIntegerValue(2,3,1);
         Assert.assertEquals((Integer)3,maximum);
     }
 
     @Test
-    public void givenMaxNumber_whenInThirdPosition_shouldReturnSame() {
-        Integer maximum = maximumValue.maximumValue(2,1,3);
+    public void givenMaxIntNumber_whenInThirdPosition_shouldReturnSame() {
+        Integer maximum = maximumValue.maximumIntegerValue(2,1,3);
         Assert.assertEquals((Integer)3,maximum);
+    }
+    @Test
+    public void givenMaxFloatNumber_whenInFirstPosition_shouldReturnSame() {
+        Float maximum = maximumValue.maximumFloatValue(2.2f,1.3f,1.1f);
+        Assert.assertEquals((Float)2.2f,maximum);
+    }
+    @Test
+    public void givenMaxFloatNumber_whenInSecondPosition_shouldReturnSame() {
+        Float maximum = maximumValue.maximumFloatValue(1.3f,2.2f,1.1f);
+        Assert.assertEquals((Float)2.2f,maximum);
+    }
+    @Test
+    public void givenMaxFloatNumber_whenInThirdPosition_shouldReturnSame() {
+        Float maximum = maximumValue.maximumFloatValue(1.3f,1.1f,2.2f);
+        Assert.assertEquals((Float)2.2f,maximum);
     }
 }

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-31T17:40:30" hostname="LAPTOP-CKOAUDG5" time="0.011">
+<testsuite name="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-31T18:02:51" hostname="LAPTOP-CKOAUDG5" time="0.001">
   <properties/>
-  <testcase name="givenMaxNumber_whenInFirstPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.002"/>
-  <testcase name="givenMaxNumber_whenInThirdPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.001"/>
-  <testcase name="givenMaxNumber_whenInSecondPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenMaxFloatNumber_whenInThirdPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
