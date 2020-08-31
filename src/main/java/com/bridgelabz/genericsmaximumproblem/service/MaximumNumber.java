@@ -20,6 +20,15 @@ public class MaximumNumber {
         else
             return thirdNumber;
     }
+    public String maximumStringValue(String firstString, String secondString, String thirdString)
+    {
+        if (firstString.length() > secondString.length()  && firstString.length() > thirdString.length())
+            return firstString;
+        else if (secondString.length() > thirdString.length() && secondString.length() > firstString.length())
+            return secondString;
+        else
+            return thirdString;
+    }
 
 }
 
