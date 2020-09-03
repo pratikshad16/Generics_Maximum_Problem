@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-09-01T12:23:31" hostname="LAPTOP-CKOAUDG5" time="0.008">
+<testsuite name="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-09-03T12:48:44" hostname="LAPTOP-CKOAUDG5" time="0.014">
   <properties/>
-  <testcase name="givenMaxStringValue_whenInSecondPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.003"/>
-  <testcase name="givenMaxFloatNumber_whenInSecondPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
-  <testcase name="givenMaxStringValue_whenInFirstPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.001"/>
+  <testcase name="givenMaxStringValue_whenInSecondPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.004"/>
+  <testcase name="givenMaxFloatNumber_whenInSecondPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.001"/>
+  <testcase name="givenMaxStringValue_whenInFirstPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
   <testcase name="givenMaxFloatNumber_whenInFirstPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
-  <testcase name="givenMaxStringValue_whenInThirdPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenMaxStringValue_whenInThirdPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.001"/>
   <testcase name="givenMaxFloatNumber_whenInThirdPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
   <testcase name="givenMaxIntNumber_whenInFirstPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
-  <testcase name="givenMaxIntNumber_whenInThirdPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.001"/>
+  <testcase name="givenMoreThanThreeIntegers_shouldReturnMaxValue" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenMaxIntNumber_whenInThirdPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
   <testcase name="givenMaxIntNumber_whenInSecondPosition_shouldReturnSame" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenMoreThanThreeStringValues_shouldRetunMaxValue" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenMoreThanThreeFloatValues_shouldReturnMaxValue" classname="com.bridgelabz.genericsmaximumproblem.MaximumNumberTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

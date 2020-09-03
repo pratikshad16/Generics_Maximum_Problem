@@ -52,4 +52,19 @@ public class MaximumNumberTest {
     public void givenMaxStringValue_whenInThirdPosition_shouldReturnSame() {
         Assert.assertEquals((String) "lmnop", MaximumNumber.maximumValue("bcde", "abc", "lmnop"));
     }
+
+    @Test
+    public void givenMoreThanThreeIntegers_shouldReturnMaxValue() {
+        Assert.assertEquals((Integer) 78,MaximumNumber.maximumValue(12,34,56,78,65,43));
+    }
+
+    @Test
+    public void givenMoreThanThreeFloatValues_shouldReturnMaxValue() {
+        Assert.assertEquals((Float) 13.2f,MaximumNumber.maximumValue(1.2f,2.3f,13.2f,7.3f,4.2f,10.3f));
+    }
+
+    @Test
+    public void givenMoreThanThreeStringValues_shouldRetunMaxValue() {
+        Assert.assertEquals((String) "pratiksha",MaximumNumber.maximumValue("abc","defg","pratiksha","lmnop","pranali"));
+    }
 }
